@@ -4,7 +4,7 @@ import pytest
 
 
 def pytest_configure(config):
-    # 添加接口地址与项目名称
+    # 添加网站地址与项目名称
     config._metadata["项目名称"] = "基于Pytest豆瓣网站自动化测试"
     config._metadata['网站地址'] = 'https://accounts.douban.com/'
     config._metadata.pop("Platform")
